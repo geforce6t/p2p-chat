@@ -1,0 +1,25 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-shadow: rgba(98, 98, 99, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.box div {
+  width: 50vh;
+  height: 50vh;
+  background-color: rgba(27, 27, 27, 0.726);
+  box-shadow: rgba(98, 98, 99, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 2%;
+}
+
+.flex-item {
+    text-align: center;
+}
+
+.image {
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,25 @@
+/*
+* The box shadow used everywhere is from : https://getcssscan.com/css-box-shadow-examples
+*/
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    min-height: 8vh;
+    font-size:x-small;
+    background-color: rgb(26, 23, 23);
+    color: whitesmoke;
+    margin: 2%;
+    box-shadow: rgba(98, 98, 99, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  border: green;
+}

@@ -1,0 +1,53 @@
+input {
+    width: 92%;
+    background-color: #00000042;
+    border: transparent;
+    padding: 1%;
+    margin: 1%;
+    color: whitesmoke;
+    outline: none;
+}
+
+.writer {
+  position: relative;
+  padding: 1%;
+  text-align: center;
+  background-color: rgb(34, 34, 34);
+}
+
+.talk-bubble {
+	margin: 20px;
+  display: block;
+  position: relative;
+  border-radius: 4%;
+	max-width: 200px;
+	height: auto;
+	background-color: #ffa500;
+}
+
+.talk-bubble2 {
+	margin: 20px;
+  display: block;
+  position: relative;
+  left: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 4%;
+	max-width: 200px;
+	height: auto;
+	background-color: #00000042;
+}
+
+/* talk bubble contents */
+.talktext{
+  padding: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+	text-align: left;
+  line-height: 1em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
