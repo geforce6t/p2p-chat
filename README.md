@@ -17,3 +17,6 @@ experiment to create an implementation of read-receipt feature using firebase.
 - single tick for sent messages.
 - double tick for recieved messages.
 - coloured double tick for seen messages. 
+
+
+This is a cool project to learn peer to peer chat. Good work Shashwat !
